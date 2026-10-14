@@ -1,0 +1,111 @@
+  html, body {
+            margin: 0;
+            min-height: 100%;
+        }
+
+        body {
+            min-height: 100vh;
+            background: #111111;
+            color: #eeeeee;
+
+            font-family: "Courier New", Courier, monospace;
+            font-weight: 400;
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+
+        .container {
+            padding: 30px;
+        }
+
+        h1,
+        p,
+        a {
+            font-family: inherit;
+            font-weight: 400;
+        }
+
+        h1 {
+            margin: 0 0 18px 0;
+            font-size: 2.2rem;
+            font-weight: 400;
+            font-size: 2.2rem;
+            color: #eeeeee;
+
+    animation: rgbGlow 3s linear infinite;
+}
+
+@keyframes rgbGlow {
+    0% {
+        text-shadow:
+            0 0 4px rgba(255, 0, 0, 0.45),
+            0 0 10px rgba(255, 0, 0, 0.20);
+    }
+
+    16.66% {
+        text-shadow:
+            0 0 4px rgba(255, 165, 0, 0.45),
+            0 0 10px rgba(255, 165, 0, 0.20);
+    }
+
+    33.33% {
+        text-shadow:
+            0 0 4px rgba(255, 255, 0, 0.45),
+            0 0 10px rgba(255, 255, 0, 0.20);
+    }
+
+    50% {
+        text-shadow:
+            0 0 4px rgba(0, 255, 0, 0.45),
+            0 0 10px rgba(0, 255, 0, 0.20);
+    }
+
+    66.66% {
+        text-shadow:
+            0 0 4px rgba(0, 200, 255, 0.45),
+            0 0 10px rgba(0, 200, 255, 0.20);
+    }
+
+    83.33% {
+        text-shadow:
+            0 0 4px rgba(100, 0, 255, 0.45),
+            0 0 10px rgba(100, 0, 255, 0.20);
+    }
+
+    100% {
+        text-shadow:
+            0 0 4px rgba(255, 0, 0, 0.45),
+            0 0 10px rgba(255, 0, 0, 0.20);
+    }
+}
+        }
+
+        .description {
+            margin: 0 0 18px 0;
+            font-size: 1rem;
+        }
+
+        .text-label {
+            margin: 0 0 12px 0;
+            font-size: 1rem;
+        }
+
+        .links {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 6px;
+        }
+
+        a {
+            color: #eeeeee;
+            text-decoration: underline;
+            font-size: 1rem;
+        }
+
+        a:hover {
+            opacity: 0.75;
+        }
