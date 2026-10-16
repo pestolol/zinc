@@ -28,7 +28,7 @@
         footer {
     font-family: inherit;
     font-weight: 400;
-    font-size: 0.75rem;
+    font-size: 0.87rem;
     padding: 15px;
 }
 
@@ -100,12 +100,12 @@
 
         .description {
             margin: 0 0 18px 0;
-            font-size: 1.2rem;
+            font-size: 1.25rem;
         }
 
         .text-label {
             margin: 0 0 12px 0;
-            font-size: 1.2rem;
+            font-size: 1.25rem;
         }
 
         .links {
@@ -118,7 +118,7 @@
         a {
             color: #ffffff;
             text-decoration: underline;
-            font-size: 1rem;
+            font-size: 1.25rem;
         }
 
         a:hover {
