@@ -12,19 +12,27 @@
             font-weight: 400;
 
             display: flex;
-            justify-content: center;
-            align-items: center;
             text-align: center;
         }
 
         .container {
             padding: 30px;
+            flex: 1;
+            display: flex;
+            align-items: center;
+            justify-content: center;
         }
+
+        footer {
+    font-family: inherit;
+    font-weight: 400;
+    font-size: 0.75rem;
+    padding: 15px;
+}
 
         h1,
         p,
-        a,
-        footer {
+        a {
             font-family: inherit;
             font-weight: 400;
         }
