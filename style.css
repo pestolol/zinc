@@ -44,7 +44,7 @@
             font-size: 2.2rem;
             color: #eeeeee;
 
-    animation: rgbGlow 3s linear infinite;
+    animation: rgbGlow 4s linear infinite;
 }
 
 @keyframes rgbGlow {
